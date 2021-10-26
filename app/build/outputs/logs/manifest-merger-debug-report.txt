@@ -1,0 +1,731 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\heena\.gradle\caches\transforms-3\804ecbe158540ea994aedb95228dad61\transformed\constraintlayout-2.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\16f116ff52d338b487f28c9e5a81388b\transformed\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\heena\.gradle\caches\transforms-3\82feb9c8e6043fbb246a3fb79483eb0b\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:2:1-23:12
+MERGED from [com.github.pchmn:MaterialChipsInput:1.0.5] C:\Users\heena\.gradle\caches\transforms-3\b8f30caf000ba6c55d0ff16bfdc56351\transformed\jetified-MaterialChipsInput-1.0.5\AndroidManifest.xml:2:1-17:12
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] C:\Users\heena\.gradle\caches\transforms-3\edd3f027aca79765927d8027088699ca\transformed\jetified-crystalrangeseekbar-1.1.3\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\5c1c30f15030d746c50f6ddbeb048b53\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\461a3d5d34cd2cfa1872450155ec04a3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\988e05774c4fff795329b7d122287679\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\61d5e69004093b59ef31a4cf4b7db29b\transformed\navigation-fragment-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\59d7ad409fbfcf00c56ed68b8afaf175\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\911df4f38094f01de40115792b4d8698\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\88df77d01c454eb6efa3d39180f9bdea\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\5100b9e64d8d5c04cda95ad26d4a1409\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\84875d49776d2be5155174db2582d09a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\heena\.gradle\caches\transforms-3\d50e87016b669263eed985fc36bf7629\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\854e706c699b7a136f232598b2fb3f8a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\44893f26922b8b560990734c831e8030\transformed\jetified-play-services-location-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\heena\.gradle\caches\transforms-3\90421a5b437505f616ca68031842dfc5\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\heena\.gradle\caches\transforms-3\3bd2d327f81d121d707ecc85ce17bfc1\transformed\jetified-material-ripple-1.0.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\660d29861ce340574b4e355d4eb9631c\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.hootsuite.android:nachos:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\18814bc67d78eb812c5fb7b8d54ec530\transformed\jetified-nachos-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\heena\.gradle\caches\transforms-3\0ef56bff9793c0b2ce96551c9a38451a\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\7bfac010968e69379bade73efe1e63fe\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\5893b623119f2168a3bb3f9f48aceffc\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\dcf9dfaf8f64be3469a63539e049c579\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\e4022cc4a366f160b29a317dbb514f58\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\heena\.gradle\caches\transforms-3\113e1da4579be444d81c83efbf8fbabe\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\heena\.gradle\caches\transforms-3\482c730e3aef63d70123e52e0a6dcb32\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\168fb4c1436a78fa967c60c64e204c48\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\0166e340e337c4ead2f2db4d60165dac\transformed\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\heena\.gradle\caches\transforms-3\ac4198b9dd89a055ab25e1c6e02ff0ff\transformed\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\97bb6b14a7a650392784656127ecf9a8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a8e44a63ae4620d808bcdc753beadbf9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\eef76ad8e3f4ca33df07cd444e5a3da1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\8f5ceca2d34631851409b5c3537bb47e\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\heena\.gradle\caches\transforms-3\014211e11755d67a62bae33c4e5af354\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\heena\.gradle\caches\transforms-3\5195a8cd5ad91cd5027f4bb3ab4cbe42\transformed\jetified-butterknife-8.5.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\13459e6595e68fff79ca8cfe843e992b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a2c2acb5be64f124387f36a8efaa9757\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\6afe82a30db6b2bcf6dc2ea650e868b7\transformed\navigation-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\9fbbfc979d2239b5466548231df3e35b\transformed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\ab20f63fa9c6a06ef5a5a16d4ec2b4a1\transformed\navigation-common-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\b359afee555eed1fd22ca03914d6d3b7\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\adcd9c62f9efa315be6fa001b8f58aa1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\523f5eed5e3bc584b4bdcad47fdd5539\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\52df269fbb2936c05ef6ceb5bffeb64d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\6c453faa781134c32ce18b0f35dd9027\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\c563eb0dfd2a6f37d80d88717c75d500\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\b94ccdd315a66e477b03749c99b30c70\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\5eb3ea03296dc37ba57465a433611068\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\aa93237faaee1ad445c20962f610bcb8\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\4e701ef0db4d9ba7115885f39616e5c2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\1a0469b32830b6fe21c43dcd44aeab7c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\4a91d46bb01b6b55ade5cd185c4f7fba\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\e0f921dba5398dacd374fc5405c2d57c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\heena\.gradle\caches\transforms-3\9f58b744be43c72113bbfd911b47093f\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\heena\.gradle\caches\transforms-3\bab97c484cc5a8e94109ef651ba82ef5\transformed\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\73f56d5f213a61801de4afd720a9e87f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\014bda2a660821a94828f027d03264f8\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\08492bfce6f1d2d7d3879afa57205ffb\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\768e6eb678436b683c6ea7efc030109d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\d7dae1fcddd94c7270a31e1e244f2144\transformed\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\052115e3b0d9b636ff4bf06ec18365d7\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\heena\.gradle\caches\transforms-3\6f580c6e03819fbcf3b38359d0bfb3c1\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\dfef07905e8de3237bc9b14f66f8d202\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+	package
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SET_ALARM
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:12:22-77
+application
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:14:5-130:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\heena\.gradle\caches\transforms-3\804ecbe158540ea994aedb95228dad61\transformed\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\heena\.gradle\caches\transforms-3\804ecbe158540ea994aedb95228dad61\transformed\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\heena\.gradle\caches\transforms-3\82feb9c8e6043fbb246a3fb79483eb0b\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\heena\.gradle\caches\transforms-3\82feb9c8e6043fbb246a3fb79483eb0b\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.github.pchmn:MaterialChipsInput:1.0.5] C:\Users\heena\.gradle\caches\transforms-3\b8f30caf000ba6c55d0ff16bfdc56351\transformed\jetified-MaterialChipsInput-1.0.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.pchmn:MaterialChipsInput:1.0.5] C:\Users\heena\.gradle\caches\transforms-3\b8f30caf000ba6c55d0ff16bfdc56351\transformed\jetified-MaterialChipsInput-1.0.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] C:\Users\heena\.gradle\caches\transforms-3\edd3f027aca79765927d8027088699ca\transformed\jetified-crystalrangeseekbar-1.1.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] C:\Users\heena\.gradle\caches\transforms-3\edd3f027aca79765927d8027088699ca\transformed\jetified-crystalrangeseekbar-1.1.3\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\854e706c699b7a136f232598b2fb3f8a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\854e706c699b7a136f232598b2fb3f8a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\44893f26922b8b560990734c831e8030\transformed\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\44893f26922b8b560990734c831e8030\transformed\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\heena\.gradle\caches\transforms-3\3bd2d327f81d121d707ecc85ce17bfc1\transformed\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\heena\.gradle\caches\transforms-3\3bd2d327f81d121d707ecc85ce17bfc1\transformed\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\heena\.gradle\caches\transforms-3\113e1da4579be444d81c83efbf8fbabe\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\heena\.gradle\caches\transforms-3\113e1da4579be444d81c83efbf8fbabe\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\168fb4c1436a78fa967c60c64e204c48\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\168fb4c1436a78fa967c60c64e204c48\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\0166e340e337c4ead2f2db4d60165dac\transformed\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\0166e340e337c4ead2f2db4d60165dac\transformed\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\52df269fbb2936c05ef6ceb5bffeb64d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\52df269fbb2936c05ef6ceb5bffeb64d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\d7dae1fcddd94c7270a31e1e244f2144\transformed\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\d7dae1fcddd94c7270a31e1e244f2144\transformed\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\dfef07905e8de3237bc9b14f66f8d202\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\dfef07905e8de3237bc9b14f66f8d202\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:19:9-53
+	android:icon
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:17:9-46
+	android:allowBackup
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:15:9-66
+activity#com.sakec.parkingsystem.RegisterLogin.RecoverAccountActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:22:9-23:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:23:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:22:19-94
+activity#com.sakec.parkingsystem.RegisterLogin.VerifiedActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:24:9-26:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:25:13-82
+activity#com.sakec.parkingsystem.RegisterLogin.StepperWizardActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:27:9-29:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:29:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:28:13-87
+activity#com.sakec.parkingsystem.RegisterLogin.ResetPasswordActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:30:9-32:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:32:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:31:13-87
+activity#com.sakec.parkingsystem.common.BookingDetailsActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:33:9-90
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:33:19-87
+activity#com.sakec.parkingsystem.ui.profile.UpiDetailsActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:34:9-90
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:34:19-87
+activity#com.sakec.parkingsystem.ui.profile.AboutMeActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:35:9-64
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:35:19-61
+activity#com.sakec.parkingsystem.ui.profile.ChangePasswordActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:36:9-94
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:36:19-91
+activity#com.sakec.parkingsystem.ui.profile.PersonalDetailsActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:37:9-95
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:37:19-92
+activity#com.sakec.parkingsystem.NormalUser.NearByAreaActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:38:9-90
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:38:19-87
+activity#com.sakec.parkingsystem.OwnerUser.AreaHistoryActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:39:9-90
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:39:19-87
+activity#com.sakec.parkingsystem.NormalUser.UserHistoryActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:40:9-91
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:40:19-88
+activity#com.sakec.parkingsystem.RegisterLogin.SplashScreen
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:41:9-71:20
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:43:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:42:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:47:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/firebase_page_url+data:pathPrefix:@string/firebase_page_path+data:scheme:@string/firebase_page_protocol
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:49:13-60:29
+	android:label
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:49:28-60
+action#android.intent.action.VIEW
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:17-76
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:17-78
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:27-75
+data
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:55:17-58:71
+	android:host
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:56:21-61
+	android:scheme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:58:21-68
+	android:pathPrefix
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:57:21-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:reset_password+data:scheme:one_q_shop
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:61:13-70:29
+	android:label
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:61:28-54
+activity#com.sakec.parkingsystem.OwnerUser.MainOwnerActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:72:9-88
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:72:19-85
+activity#com.sakec.parkingsystem.NormalUser.MainNormalActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:73:9-75:46
+	android:launchMode
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:75:13-43
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:74:13-81
+activity#com.sakec.parkingsystem.NormalUser.BookParkingAreaActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:76:9-95
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:76:19-92
+activity#com.sakec.parkingsystem.OwnerUser.AddPositionActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:77:9-90
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:77:19-87
+activity#com.sakec.parkingsystem.NormalUser.GPSMapActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:78:9-86
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:78:19-83
+activity#com.sakec.parkingsystem.RegisterLogin.ForgotPasswordActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:79:9-81:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:80:13-88
+activity#com.sakec.parkingsystem.RegisterLogin.RegisterActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:82:9-84:50
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:84:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:83:13-82
+activity#com.sakec.parkingsystem.RegisterLogin.LoginActivity
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:85:9-93:20
+	android:theme
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:87:13-47
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:86:13-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:88:13-92:29
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:95:9-97:47
+	android:value
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:97:13-44
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:96:13-58
+receiver#com.sakec.parkingsystem.utils.notifications.NotificationReceiver
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:98:9-101:40
+	android:enabled
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:100:13-35
+	android:exported
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:99:13-92
+receiver#com.sakec.parkingsystem.utils.notifications.NotificationActionReceiver
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:102:9-107
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:102:19-104
+receiver#com.sakec.parkingsystem.utils.widgets.ParkingOwnerUserWidget
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:104:9-114:20
+	android:label
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:106:13-55
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:105:13-88
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:107:13-109:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:17-84
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:111:13-113:74
+	android:resource
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:113:17-71
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:112:17-58
+receiver#com.sakec.parkingsystem.utils.widgets.ParkingNormalUserWidget
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:115:9-125:20
+	android:label
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:116:13-89
+service#com.sakec.parkingsystem.utils.services.MyParkingService
+ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:127:9-129:56
+	android:foregroundServiceType
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:129:13-53
+	android:name
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:128:13-83
+uses-sdk
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\heena\.gradle\caches\transforms-3\804ecbe158540ea994aedb95228dad61\transformed\constraintlayout-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\heena\.gradle\caches\transforms-3\804ecbe158540ea994aedb95228dad61\transformed\constraintlayout-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\16f116ff52d338b487f28c9e5a81388b\transformed\navigation-ui-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\16f116ff52d338b487f28c9e5a81388b\transformed\navigation-ui-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\heena\.gradle\caches\transforms-3\82feb9c8e6043fbb246a3fb79483eb0b\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\heena\.gradle\caches\transforms-3\82feb9c8e6043fbb246a3fb79483eb0b\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:7:5-44
+MERGED from [com.github.pchmn:MaterialChipsInput:1.0.5] C:\Users\heena\.gradle\caches\transforms-3\b8f30caf000ba6c55d0ff16bfdc56351\transformed\jetified-MaterialChipsInput-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.pchmn:MaterialChipsInput:1.0.5] C:\Users\heena\.gradle\caches\transforms-3\b8f30caf000ba6c55d0ff16bfdc56351\transformed\jetified-MaterialChipsInput-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] C:\Users\heena\.gradle\caches\transforms-3\edd3f027aca79765927d8027088699ca\transformed\jetified-crystalrangeseekbar-1.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] C:\Users\heena\.gradle\caches\transforms-3\edd3f027aca79765927d8027088699ca\transformed\jetified-crystalrangeseekbar-1.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\5c1c30f15030d746c50f6ddbeb048b53\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\5c1c30f15030d746c50f6ddbeb048b53\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\461a3d5d34cd2cfa1872450155ec04a3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\461a3d5d34cd2cfa1872450155ec04a3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\988e05774c4fff795329b7d122287679\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\988e05774c4fff795329b7d122287679\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\61d5e69004093b59ef31a4cf4b7db29b\transformed\navigation-fragment-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\61d5e69004093b59ef31a4cf4b7db29b\transformed\navigation-fragment-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\59d7ad409fbfcf00c56ed68b8afaf175\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\59d7ad409fbfcf00c56ed68b8afaf175\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\911df4f38094f01de40115792b4d8698\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\911df4f38094f01de40115792b4d8698\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\88df77d01c454eb6efa3d39180f9bdea\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\heena\.gradle\caches\transforms-3\88df77d01c454eb6efa3d39180f9bdea\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\5100b9e64d8d5c04cda95ad26d4a1409\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\5100b9e64d8d5c04cda95ad26d4a1409\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\84875d49776d2be5155174db2582d09a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\84875d49776d2be5155174db2582d09a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\heena\.gradle\caches\transforms-3\d50e87016b669263eed985fc36bf7629\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\heena\.gradle\caches\transforms-3\d50e87016b669263eed985fc36bf7629\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\854e706c699b7a136f232598b2fb3f8a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\854e706c699b7a136f232598b2fb3f8a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\44893f26922b8b560990734c831e8030\transformed\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\44893f26922b8b560990734c831e8030\transformed\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\heena\.gradle\caches\transforms-3\90421a5b437505f616ca68031842dfc5\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\heena\.gradle\caches\transforms-3\90421a5b437505f616ca68031842dfc5\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\heena\.gradle\caches\transforms-3\3bd2d327f81d121d707ecc85ce17bfc1\transformed\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\heena\.gradle\caches\transforms-3\3bd2d327f81d121d707ecc85ce17bfc1\transformed\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\660d29861ce340574b4e355d4eb9631c\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\660d29861ce340574b4e355d4eb9631c\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hootsuite.android:nachos:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\18814bc67d78eb812c5fb7b8d54ec530\transformed\jetified-nachos-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hootsuite.android:nachos:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\18814bc67d78eb812c5fb7b8d54ec530\transformed\jetified-nachos-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\heena\.gradle\caches\transforms-3\0ef56bff9793c0b2ce96551c9a38451a\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\heena\.gradle\caches\transforms-3\0ef56bff9793c0b2ce96551c9a38451a\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:23:5-25:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\7bfac010968e69379bade73efe1e63fe\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\7bfac010968e69379bade73efe1e63fe\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\5893b623119f2168a3bb3f9f48aceffc\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\5893b623119f2168a3bb3f9f48aceffc\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\dcf9dfaf8f64be3469a63539e049c579\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\dcf9dfaf8f64be3469a63539e049c579\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\e4022cc4a366f160b29a317dbb514f58\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\e4022cc4a366f160b29a317dbb514f58\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\heena\.gradle\caches\transforms-3\113e1da4579be444d81c83efbf8fbabe\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\heena\.gradle\caches\transforms-3\113e1da4579be444d81c83efbf8fbabe\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\heena\.gradle\caches\transforms-3\482c730e3aef63d70123e52e0a6dcb32\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\heena\.gradle\caches\transforms-3\482c730e3aef63d70123e52e0a6dcb32\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\168fb4c1436a78fa967c60c64e204c48\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\168fb4c1436a78fa967c60c64e204c48\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\0166e340e337c4ead2f2db4d60165dac\transformed\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] C:\Users\heena\.gradle\caches\transforms-3\0166e340e337c4ead2f2db4d60165dac\transformed\jetified-play-services-tasks-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\heena\.gradle\caches\transforms-3\ac4198b9dd89a055ab25e1c6e02ff0ff\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\heena\.gradle\caches\transforms-3\ac4198b9dd89a055ab25e1c6e02ff0ff\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\97bb6b14a7a650392784656127ecf9a8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\97bb6b14a7a650392784656127ecf9a8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a8e44a63ae4620d808bcdc753beadbf9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a8e44a63ae4620d808bcdc753beadbf9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\eef76ad8e3f4ca33df07cd444e5a3da1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\eef76ad8e3f4ca33df07cd444e5a3da1\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\8f5ceca2d34631851409b5c3537bb47e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\8f5ceca2d34631851409b5c3537bb47e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\heena\.gradle\caches\transforms-3\014211e11755d67a62bae33c4e5af354\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\heena\.gradle\caches\transforms-3\014211e11755d67a62bae33c4e5af354\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\heena\.gradle\caches\transforms-3\5195a8cd5ad91cd5027f4bb3ab4cbe42\transformed\jetified-butterknife-8.5.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\heena\.gradle\caches\transforms-3\5195a8cd5ad91cd5027f4bb3ab4cbe42\transformed\jetified-butterknife-8.5.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\13459e6595e68fff79ca8cfe843e992b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\13459e6595e68fff79ca8cfe843e992b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a2c2acb5be64f124387f36a8efaa9757\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\a2c2acb5be64f124387f36a8efaa9757\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\6afe82a30db6b2bcf6dc2ea650e868b7\transformed\navigation-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\6afe82a30db6b2bcf6dc2ea650e868b7\transformed\navigation-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\9fbbfc979d2239b5466548231df3e35b\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\9fbbfc979d2239b5466548231df3e35b\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\ab20f63fa9c6a06ef5a5a16d4ec2b4a1\transformed\navigation-common-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\heena\.gradle\caches\transforms-3\ab20f63fa9c6a06ef5a5a16d4ec2b4a1\transformed\navigation-common-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\b359afee555eed1fd22ca03914d6d3b7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\b359afee555eed1fd22ca03914d6d3b7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\adcd9c62f9efa315be6fa001b8f58aa1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\adcd9c62f9efa315be6fa001b8f58aa1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\523f5eed5e3bc584b4bdcad47fdd5539\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\523f5eed5e3bc584b4bdcad47fdd5539\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\52df269fbb2936c05ef6ceb5bffeb64d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\heena\.gradle\caches\transforms-3\52df269fbb2936c05ef6ceb5bffeb64d\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\6c453faa781134c32ce18b0f35dd9027\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\6c453faa781134c32ce18b0f35dd9027\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\c563eb0dfd2a6f37d80d88717c75d500\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\c563eb0dfd2a6f37d80d88717c75d500\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\b94ccdd315a66e477b03749c99b30c70\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\b94ccdd315a66e477b03749c99b30c70\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\5eb3ea03296dc37ba57465a433611068\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\5eb3ea03296dc37ba57465a433611068\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\aa93237faaee1ad445c20962f610bcb8\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\aa93237faaee1ad445c20962f610bcb8\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\4e701ef0db4d9ba7115885f39616e5c2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\4e701ef0db4d9ba7115885f39616e5c2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\1a0469b32830b6fe21c43dcd44aeab7c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\1a0469b32830b6fe21c43dcd44aeab7c\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\4a91d46bb01b6b55ade5cd185c4f7fba\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\4a91d46bb01b6b55ade5cd185c4f7fba\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\e0f921dba5398dacd374fc5405c2d57c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\e0f921dba5398dacd374fc5405c2d57c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\heena\.gradle\caches\transforms-3\9f58b744be43c72113bbfd911b47093f\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\heena\.gradle\caches\transforms-3\9f58b744be43c72113bbfd911b47093f\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\heena\.gradle\caches\transforms-3\bab97c484cc5a8e94109ef651ba82ef5\transformed\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\heena\.gradle\caches\transforms-3\bab97c484cc5a8e94109ef651ba82ef5\transformed\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\73f56d5f213a61801de4afd720a9e87f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\73f56d5f213a61801de4afd720a9e87f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\014bda2a660821a94828f027d03264f8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\014bda2a660821a94828f027d03264f8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\08492bfce6f1d2d7d3879afa57205ffb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\08492bfce6f1d2d7d3879afa57205ffb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\768e6eb678436b683c6ea7efc030109d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\heena\.gradle\caches\transforms-3\768e6eb678436b683c6ea7efc030109d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\d7dae1fcddd94c7270a31e1e244f2144\transformed\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\heena\.gradle\caches\transforms-3\d7dae1fcddd94c7270a31e1e244f2144\transformed\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\052115e3b0d9b636ff4bf06ec18365d7\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\052115e3b0d9b636ff4bf06ec18365d7\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\heena\.gradle\caches\transforms-3\6f580c6e03819fbcf3b38359d0bfb3c1\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\heena\.gradle\caches\transforms-3\6f580c6e03819fbcf3b38359d0bfb3c1\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\dfef07905e8de3237bc9b14f66f8d202\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\heena\.gradle\caches\transforms-3\dfef07905e8de3237bc9b14f66f8d202\transformed\jetified-circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132

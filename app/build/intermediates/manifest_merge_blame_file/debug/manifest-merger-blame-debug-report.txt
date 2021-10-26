@@ -1,0 +1,429 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sakec.parkingsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.SET_ALARM" />
+16-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:12:5-80
+18-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->[com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:5-66
+19-->[com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\heena\.gradle\caches\transforms-3\15c1098fe9d29223274317d8a7d91b49\transformed\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:22-63
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+20-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:14:5-130:19
+27        android:name="com.sakec.parkingsystem.utils.AppConstants"
+27-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:15:9-66
+28        android:allowBackup="true"
+28-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.1] C:\Users\heena\.gradle\caches\transforms-3\fe1bdf4c2f4f55ef8345bd76493c487b\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/logo_no_name"
+31-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:17:9-46
+32        android:label="@string/app_name"
+32-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:18:9-41
+33        android:roundIcon="@drawable/logo_with_name"
+33-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:19:9-53
+34        android:supportsRtl="true"
+34-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:20:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:21:9-40
+37        <activity
+37-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:22:9-23:50
+38            android:name="com.sakec.parkingsystem.RegisterLogin.RecoverAccountActivity"
+38-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:22:19-94
+39            android:theme="@style/NoActionBar" />
+39-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:23:13-47
+40        <activity
+40-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:24:9-26:50
+41            android:name="com.sakec.parkingsystem.RegisterLogin.VerifiedActivity"
+41-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:25:13-82
+42            android:theme="@style/NoActionBar" />
+42-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:26:13-47
+43        <activity
+43-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:27:9-29:50
+44            android:name="com.sakec.parkingsystem.RegisterLogin.StepperWizardActivity"
+44-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:28:13-87
+45            android:theme="@style/NoActionBar" />
+45-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:29:13-47
+46        <activity
+46-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:30:9-32:50
+47            android:name="com.sakec.parkingsystem.RegisterLogin.ResetPasswordActivity"
+47-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:31:13-87
+48            android:theme="@style/NoActionBar" />
+48-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:32:13-47
+49        <activity android:name="com.sakec.parkingsystem.common.BookingDetailsActivity" />
+49-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:33:9-90
+49-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:33:19-87
+50        <activity android:name="com.sakec.parkingsystem.ui.profile.UpiDetailsActivity" />
+50-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:34:9-90
+50-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:34:19-87
+51        <activity android:name="com.sakec.parkingsystem.ui.profile.AboutMeActivity" />
+51-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:35:9-64
+51-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:35:19-61
+52        <activity android:name="com.sakec.parkingsystem.ui.profile.ChangePasswordActivity" />
+52-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:36:9-94
+52-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:36:19-91
+53        <activity android:name="com.sakec.parkingsystem.ui.profile.PersonalDetailsActivity" />
+53-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:37:9-95
+53-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:37:19-92
+54        <activity android:name="com.sakec.parkingsystem.NormalUser.NearByAreaActivity" />
+54-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:38:9-90
+54-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:38:19-87
+55        <activity android:name="com.sakec.parkingsystem.OwnerUser.AreaHistoryActivity" />
+55-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:39:9-90
+55-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:39:19-87
+56        <activity android:name="com.sakec.parkingsystem.NormalUser.UserHistoryActivity" />
+56-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:40:9-91
+56-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:40:19-88
+57        <activity
+57-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:41:9-71:20
+58            android:name="com.sakec.parkingsystem.RegisterLogin.SplashScreen"
+58-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:42:13-78
+59            android:theme="@style/SplashTheme" >
+59-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:43:13-47
+60            <intent-filter>
+60-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:44:13-48:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:17-69
+61-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:47:17-77
+63-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:47:27-74
+64            </intent-filter>
+65            <intent-filter android:label="@string/app_name" >
+65-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:49:13-60:29
+65-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:49:28-60
+66                <action android:name="android.intent.action.VIEW" />
+66-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:17-69
+66-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:17-76
+68-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:17-78
+69-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:27-75
+70                <!-- Accepts URIs that begin with "https://dms24081999.loca.lt/api/users/reset-password/” -->
+71                <data
+71-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:55:17-58:71
+72                    android:host="@string/firebase_page_url"
+72-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:56:21-61
+73                    android:pathPrefix="@string/firebase_page_path"
+73-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:57:21-68
+74                    android:scheme="@string/firebase_page_protocol" />
+74-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:58:21-68
+75                <!-- note that the leading "/" is required for pathPrefix -->
+76            </intent-filter>
+77            <intent-filter android:label="one-Q-shop" >
+77-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:61:13-70:29
+77-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:61:28-54
+78                <action android:name="android.intent.action.VIEW" />
+78-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:17-69
+78-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:50:25-66
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:17-76
+80-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:27-73
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:17-78
+81-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:53:27-75
+82                <!-- Accepts URIs that begin with "one_q_shop://reset_password” -->
+83                <data
+83-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:55:17-58:71
+84                    android:host="reset_password"
+84-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:56:21-61
+85                    android:scheme="one_q_shop" />
+85-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:58:21-68
+86            </intent-filter>
+87        </activity>
+88        <activity android:name="com.sakec.parkingsystem.OwnerUser.MainOwnerActivity" />
+88-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:72:9-88
+88-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:72:19-85
+89        <activity
+89-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:73:9-75:46
+90            android:name="com.sakec.parkingsystem.NormalUser.MainNormalActivity"
+90-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:74:13-81
+91            android:launchMode="singleTop" /> <!-- for no stacking due to notification -->
+91-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:75:13-43
+92        <activity android:name="com.sakec.parkingsystem.NormalUser.BookParkingAreaActivity" />
+92-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:76:9-95
+92-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:76:19-92
+93        <activity android:name="com.sakec.parkingsystem.OwnerUser.AddPositionActivity" />
+93-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:77:9-90
+93-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:77:19-87
+94        <activity android:name="com.sakec.parkingsystem.NormalUser.GPSMapActivity" />
+94-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:78:9-86
+94-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:78:19-83
+95        <activity
+95-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:79:9-81:50
+96            android:name="com.sakec.parkingsystem.RegisterLogin.ForgotPasswordActivity"
+96-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:80:13-88
+97            android:theme="@style/NoActionBar" />
+97-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:81:13-47
+98        <activity
+98-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:82:9-84:50
+99            android:name="com.sakec.parkingsystem.RegisterLogin.RegisterActivity"
+99-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:83:13-82
+100            android:theme="@style/NoActionBar" />
+100-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:84:13-47
+101        <activity
+101-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:85:9-93:20
+102            android:name="com.sakec.parkingsystem.RegisterLogin.LoginActivity"
+102-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:86:13-79
+103            android:theme="@style/NoActionBar" >
+103-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:87:13-47
+104            <intent-filter>
+104-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:88:13-92:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:17-69
+105-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:45:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:17-76
+107-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:52:27-73
+108            </intent-filter>
+109        </activity>
+110
+111        <meta-data
+111-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:95:9-97:47
+112            android:name="com.google.android.geo.API_KEY"
+112-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:96:13-58
+113            android:value="@string/map_key" /> <!-- Google Maps API key -->
+113-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:97:13-44
+114        <receiver
+114-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:98:9-101:40
+115            android:name="com.sakec.parkingsystem.utils.notifications.NotificationReceiver"
+115-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:99:13-92
+116            android:enabled="true"
+116-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:100:13-35
+117            android:exported="false" />
+117-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:101:13-37
+118        <receiver android:name="com.sakec.parkingsystem.utils.notifications.NotificationActionReceiver" /> <!-- Notification receiver -->
+118-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:102:9-107
+118-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:102:19-104
+119        <!-- Home Screen Widget Start -->
+120        <receiver
+120-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:104:9-114:20
+121            android:name="com.sakec.parkingsystem.utils.widgets.ParkingOwnerUserWidget"
+121-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:105:13-88
+122            android:label="Smart Parking (Owner User)" >
+122-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:106:13-55
+123            <intent-filter>
+123-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:107:13-109:29
+124                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+124-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:17-84
+124-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:25-81
+125            </intent-filter>
+126
+127            <meta-data
+127-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:111:13-113:74
+128                android:name="android.appwidget.provider"
+128-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:112:17-58
+129                android:resource="@xml/parking_owner_user_widget_info" />
+129-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:113:17-71
+130        </receiver>
+131        <receiver
+131-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:115:9-125:20
+132            android:name="com.sakec.parkingsystem.utils.widgets.ParkingNormalUserWidget"
+132-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:116:13-89
+133            android:label="Smart Parking (Normal User)" >
+133-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:117:13-56
+134            <intent-filter>
+134-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:107:13-109:29
+135                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+135-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:17-84
+135-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:108:25-81
+136            </intent-filter>
+137
+138            <meta-data
+138-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:111:13-113:74
+139                android:name="android.appwidget.provider"
+139-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:112:17-58
+140                android:resource="@xml/parking_normal_user_widget_info" />
+140-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:113:17-71
+141        </receiver> <!-- Home Screen Widget End -->
+142        <!-- Background service Start -->
+143        <service
+143-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:127:9-129:56
+144            android:name="com.sakec.parkingsystem.utils.services.MyParkingService"
+144-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:128:13-83
+145            android:foregroundServiceType="dataSync" />
+145-->C:\Users\heena\Desktop\SmartParkingApp-master\app\src\main\AndroidManifest.xml:129:13-53
+146
+147        <activity
+147-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+148            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+148-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+149            android:exported="false"
+149-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+150            android:label="@string/places_autocomplete_label"
+150-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+151            android:theme="@style/PlacesAutocompleteOverlay"
+151-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+152            android:windowSoftInputMode="adjustResize" >
+152-->[com.google.android.libraries.places:places:2.4.0] C:\Users\heena\.gradle\caches\transforms-3\a660dee2af2c56d5f936006095e50f13\transformed\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+153        </activity> <!-- Needs to be explicitly declared on P+ -->
+154        <uses-library
+154-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+155            android:name="org.apache.http.legacy"
+155-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+156            android:required="false" />
+156-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\heena\.gradle\caches\transforms-3\a725d22bd76269ebf27de1941450f0f0\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+157
+158        <activity
+158-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
+159            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+159-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:25:13-85
+160            android:excludeFromRecents="true"
+160-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
+161            android:exported="true"
+161-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
+162            android:launchMode="singleTask"
+162-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:28:13-44
+163            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+163-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
+165
+166        <service
+166-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
+167            android:name="com.google.firebase.components.ComponentDiscoveryService"
+167-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+169            android:exported="false" >
+169-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
+170            <meta-data
+170-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
+171                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+171-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\heena\.gradle\caches\transforms-3\95b7d36ff418b85d9d2346709c9b9faf\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+174                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+174-->[com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-database:19.5.0] C:\Users\heena\.gradle\caches\transforms-3\b8747c12e899c9c831d4891b129da8f3\transformed\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+177                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+177-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\heena\.gradle\caches\transforms-3\b1951690fa6d626283c46aaca52581c5\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+179        </service>
+180
+181        <activity
+181-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+182            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+182-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\5afd112b87bcdb7e01ddfd44687ba816\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+185
+186        <provider
+186-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+187            android:name="com.google.firebase.provider.FirebaseInitProvider"
+187-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+188            android:authorities="com.sakec.parkingsystem.firebaseinitprovider"
+188-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+189            android:directBootAware="true"
+189-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+190            android:exported="false"
+190-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+191            android:initOrder="100" />
+191-->[com.google.firebase:firebase-common:19.3.1] C:\Users\heena\.gradle\caches\transforms-3\80f9ef31ae11145cc004ba404744c19a\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\heena\.gradle\caches\transforms-3\a62a8df2c9a5300645194eaf0a769c58\transformed\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+196
+197        <provider
+197-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+198            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+198-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+199            android:authorities="com.sakec.parkingsystem.lifecycle-process"
+199-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+200            android:exported="false"
+200-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+201            android:multiprocess="true" />
+201-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\heena\.gradle\caches\transforms-3\582583d5c658384c19781d1826ecdfed\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+202
+203        <service
+203-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+204            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+204-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+205            android:exported="false" >
+205-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+206            <meta-data
+206-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+207                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+207-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+208                android:value="cct" />
+208-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\heena\.gradle\caches\transforms-3\12316414742acd6061f7e5f9f825172e\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+209        </service>
+210        <service
+210-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+211            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+211-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+212            android:exported="false"
+212-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+213            android:permission="android.permission.BIND_JOB_SERVICE" >
+213-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+214        </service>
+215
+216        <receiver
+216-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+217            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+217-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+218            android:exported="false" />
+218-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\heena\.gradle\caches\transforms-3\42e374c327e5139895157ce699136b70\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+219    </application>
+220
+221</manifest>
